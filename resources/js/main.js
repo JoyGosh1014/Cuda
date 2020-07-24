@@ -11,7 +11,23 @@ $(document).ready(function () {
 
 	});
 
+	//ACTIVE LINK
+	$("nav ul li").click(function(){
+		$("nav ul li").removeClass("active");
+		$(this).addClass("active");
+	});
+	$("nav a img.logo").click(function(){
+		$("nav ul li").removeClass("active");
+		$("nav ul li:first-child").addClass("active");
+	});
 	//MIXIT UP
 	var mixer = mixitup('.container');
 
-})
+});
+
+function openNav() {
+	document.getElementById("myNav").style.width = "100%";
+}
+function closeNav() {
+	document.getElementById("myNav").style.width = "0%";
+}
