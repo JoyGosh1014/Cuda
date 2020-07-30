@@ -2,7 +2,9 @@ svg.radial-progress {
   height: auto;
   max-width: 200px;
   padding: 1em;
-  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
   width: 100%;
 }
 

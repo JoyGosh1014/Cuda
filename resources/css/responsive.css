@@ -88,4 +88,7 @@
 	.testimonial .col:nth-child(4){
 		margin-top: 4rem;
 	}
+	.portfolio-filter button:nth-child(4){
+		margin-top: 1rem;
+	}
 }
